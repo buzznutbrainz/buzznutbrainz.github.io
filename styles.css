@@ -2,18 +2,83 @@
     box-sizing: border-box;
 }
 
+#container{
+    display: grid;
+    grid-template-areas:
+    "header header" 
+    "sidebar main"
+    "footer footer";
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+} 
+
 body{
-    background-color: #3f6c51;
 }
+
 header{
+    grid-area: header;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     background-color: #f9fbf2;
-    padding: 10px;
+}
+    
+.logo{
+        max-width: 200px;
+    }
+
+h1{
     color: #1d3461;
     text-align: center;
-    font-size: 40px;
+    font-size: 4em;
     font-family: "alfarn", sans-serif;
     font-weight: 400;
     font-style: normal;
+    }
 
 
+nav{
+    text-align: center;
+    font-size: 2em;
+    font-family: "alfarn", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-bottom: 18px;
+}
+
+header nav a{
+    color: #5e7fc1;
+    text-decoration: none;
+}
+
+main{
+    grid-area: main;
+    background-color: #3f6c51;
+    color: #f9fbf2;
+    font-family: "new-atten", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 6%;
+
+}
+
+aside{
+    grid-area: sidebar;
+    background-color: #5e7fc1;
+    color: #f9fbf2;
+    font-family: "new-atten", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+footer{
+    grid-area: footer;
+    grid-area: footer;
+    text-align: center;
+    background-color: #f9fbf2;
+    font-family: "new-atten", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
