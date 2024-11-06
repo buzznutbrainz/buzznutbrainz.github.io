@@ -115,7 +115,7 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 10px;
     }
 
@@ -123,7 +123,7 @@ footer{
     content: url(ballbiggest.png);
     width: 100%;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
 }
 .header-overlay{
     height: 100%;
@@ -132,9 +132,11 @@ footer{
     }
 
 .site-name{
-    font-size: 3em;
+    font-size: 2.8em;
+    
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
     }
 
 .nav {
@@ -146,7 +148,7 @@ footer{
     }
 
 .nav a{
-    font-size: 1.7em;
+    font-size: 1em;
     font-family: "alfarn", sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -187,23 +189,24 @@ main {
     height: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
+    object-fit: contain;
 }
 
 .site-name{
     font-size: 2.8em;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     }
 
 .nav {
     flex-direction: column;
     width: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     }
 
 .nav a{
     font-size: 1.8em;
-    padding: 8px;
+    padding: 5px;
     margin:0;
     width: 100%;
     text-align: center;
@@ -212,3 +215,39 @@ main {
 
 }
 
+@media screen and (max-width: 1000px) {
+
+.banner{
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+}
+
+.banner img {
+    content: url(768.png);
+    width: 100%;
+    height: auto;
+}
+
+}
+.site-name {
+    font-size: 4em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.nav {
+    width: auto;
+    }
+
+.nav a{
+    font-size: 1.8em;
+    padding: 12px;
+    margin:0;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+}
