@@ -68,9 +68,7 @@ body{
     font-family: "alfarn", sans-serif;
     font-weight: 200;
     font-style: normal;
-    padding-bottom: 18px;
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin-right: 3vw;
     text-decoration: underline;
 }
 
@@ -83,11 +81,11 @@ main{
     font-size: 1em;
     font-style: normal;
     text-align: center;
-    padding: 6%;
+    padding: 6vh;
 }
 
 #what {
-    margin-bottom: 20px;
+    margin-bottom: 9vh;
 }
 
 aside{
@@ -97,6 +95,8 @@ aside{
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    margin-top: 2vh;
+    padding: 6vh;
 }
 
 footer{
