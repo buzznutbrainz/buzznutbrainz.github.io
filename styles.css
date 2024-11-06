@@ -6,13 +6,13 @@
 
 
 body{
-    background-color: #ECE8E1;
+    background-color: #e9e7e4;
 }
 
 .banner {
     position: relative;
     width: 100%;
-    height: 514px;
+    height: 480px;
     overflow: hidden;
 
 }
@@ -84,6 +84,7 @@ main{
     text-align: center;
     padding: 6vh;
     margin: 0 auto;
+    margin-top: 0vh;
     border-radius: 50px;;
 }
 
@@ -110,6 +111,7 @@ aside{
 footer{
     text-align: center;
     background-color: #f9fbf2;
+    color: #1d3461;
     font-family: "new-atten", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -123,14 +125,14 @@ footer{
 .banner{
     height: 30vh;
     width: 100%;
-    background-image: url(ball_beige.png);
+    background-image: url(ball_new.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     }
 
 .banner img {
-    content: url(ball_beige.png);
+    content: url(ball_new.png);
     width: 100%;
     height: auto;
     object-fit:cover;
@@ -162,12 +164,13 @@ footer{
 }
 
 main {    
+    width: 80vw;
     font-family: "new-atten", sans-serif;
     font-weight: 400;
     font-size: 0.8em;
     font-style: normal;
     text-align: center;
-    margin-top: 2vh;
+    margin-top: 4vh;
 
 }
 }
