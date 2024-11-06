@@ -6,13 +6,13 @@
 
 
 body{
-    background-color: #f9fbf2;
+    background-color: #ECE8E1;
 }
 
 .banner {
     position: relative;
     width: 100%;
-    height: 340px;
+    height: 514px;
     overflow: hidden;
 
 }
@@ -20,7 +20,7 @@ body{
 .banner img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     position: absolute;
     z-index: 1;
 }
@@ -73,15 +73,18 @@ body{
 }
 
 main{
+    display: block;
     background-color: #3f6c51;
     color: #f9fbf2;
-    width: 100%;
+    width: 60vw;
     font-family: "new-atten", sans-serif;
     font-weight: 400;
     font-size: 1em;
     font-style: normal;
     text-align: center;
     padding: 6vh;
+    margin: 0 auto;
+    border-radius: 50px;;
 }
 
 #what {
@@ -96,7 +99,12 @@ aside{
     font-style: normal;
     text-align: center;
     margin-top: 2vh;
-    padding: 6vh;
+    padding: 4.5vh;
+    border-radius: 50px;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 footer{
@@ -105,37 +113,41 @@ footer{
     font-family: "new-atten", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 
 @media screen and (max-width: 480px) {
     
 .banner{
-    height: 32vh;
-    background-image: url(ballbiggest.png);
+    height: 30vh;
+    width: 100%;
+    background-image: url(ball_beige.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     }
 
 .banner img {
-    content: url(ballbiggest.png);
+    content: url(ball_beige.png);
     width: 100%;
     height: auto;
-    object-fit:contain;
+    object-fit:cover;
 }
 .header-overlay{
-    height: 100%;
+    width: 100%;
     }
 
 .site-name{
     font-size: 1.6em;
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
     }
 
 .nav {
     flex-direction: column;
+    padding-bottom: 2vh;
     }
 
 .nav a{
@@ -155,6 +167,7 @@ main {
     font-size: 0.8em;
     font-style: normal;
     text-align: center;
+    margin-top: 2vh;
 
 }
 }
