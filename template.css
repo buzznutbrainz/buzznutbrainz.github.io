@@ -9,7 +9,7 @@ body{
     background-color: #e9e7e4;
 }
 
-header{
+h1{
     text-align: center;
     color: #1d3461;
     font-size: 5.5em;
@@ -17,4 +17,5 @@ header{
     font-weight: 400;
     font-style: normal;
     z-index: 2;
+    padding: 5vh;
 }

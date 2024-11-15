@@ -72,8 +72,19 @@ body{
     text-decoration: underline;
 }
 
+.hero img{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+
+}
+
 main{
-    display: block;
+    display: flex;
+    flex-direction: row;
     background-color: #3f6c51;
     color: #f9fbf2;
     width: 60vw;
@@ -81,7 +92,6 @@ main{
     font-weight: 400;
     font-size: 1em;
     font-style: normal;
-    text-align: center;
     padding: 6vh;
     margin: 0 auto;
     margin-top: 0vh;
