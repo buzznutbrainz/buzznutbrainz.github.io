@@ -10,27 +10,34 @@
 
 body{
     background-color: #e9e7e4;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 h1{
     text-align: center;
-    color: #1d3461;
+    color: #3f6c51;
     font-size: 5.5em;
     font-family: "alfarn", sans-serif;
     font-weight: 400;
     font-style: normal;
     z-index: 2;
-    padding: 5vh;
+    padding: 6vh;
 }
 
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 15rem;
-    padding: 1rem;
+    gap: 10rem;
+    padding-left: 3rem;
 }
 
 .portfolio img{
-    max-width: 300px;
+    display: block;
+    max-width: 200%;
     height: auto;
+}
+
+.card-content{
+    text-align: center;
 }
