@@ -12,7 +12,7 @@ body{
 .banner {
     position: relative;
     width: 100%;
-    height: 480px;
+    height: 380px;
     overflow: hidden;
 
 }
@@ -72,19 +72,11 @@ body{
     text-decoration: underline;
 }
 
-.hero img{
-    width: 50vw;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2vh;
-
-}
 
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
     background-color: #3f6c51;
     color: #f9fbf2;
     width: 60vw;
@@ -98,10 +90,21 @@ main{
     border-radius: 50px;;
 }
 
-#what {
-    margin-bottom: 9vh;
+main img{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2vh;
+
 }
 
+
+#who {
+
+    padding-bottom: 4vh;
+}
 aside{
     background-color: #5e7fc1;
     color: #f9fbf2;
