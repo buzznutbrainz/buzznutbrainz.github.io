@@ -25,19 +25,8 @@ h1{
     padding: 6vh;
 }
 
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 10rem;
-    padding-left: 3rem;
+h3{
+    font-size: 1.3em;
+    color: #1d3461;
 }
 
-.portfolio img{
-    display: block;
-    max-width: 200%;
-    height: auto;
-}
-
-.card-content{
-    text-align: center;
-}

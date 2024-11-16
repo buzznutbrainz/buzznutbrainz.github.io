@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9e7e4;
+    
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10rem;
+    padding: 1.4rem;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.portfolio img{
+    display: block;
+    max-width: 200%;
+    height: auto;
+}
+
+.card-content{
+    text-align: center;
+}
