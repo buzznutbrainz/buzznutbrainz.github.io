@@ -71,7 +71,7 @@ h1{
 }
 
 .dropdown-content a{
-    color: #5e7fc1;
+    color: #1d3461;
     text-decoration: underline;
     display: block;
     font-size: 2em;
@@ -121,7 +121,7 @@ h1{
 h2{
     font-size: 3em;
     text-align: left;
-    color: #1d3461;
+    color: #5e7fc1;
 }
 
 #designs{
@@ -129,7 +129,7 @@ h2{
 }
 
 #designs img{
-    width: 300px;
+    width: 500px;
     height: auto;
     padding-left: 2vw;
 
