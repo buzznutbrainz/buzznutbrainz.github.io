@@ -81,13 +81,20 @@ main{
     color: #f9fbf2;
     width: 60vw;
     font-family: "new-atten", sans-serif;
-    font-weight: 400;
-    font-size: 1em;
+    font-weight: 350;
+    font-size: 1.3em;
     font-style: normal;
     padding: 6vh;
     margin: 0 auto;
     margin-top: 0vh;
     border-radius: 50px;
+}
+
+h2{
+    padding-bottom: 2rem;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 1.5em;
 }
 
 main img{
@@ -103,9 +110,9 @@ main img{
 
 
 #who {
-
     padding-bottom: 4vh;
 }
+
 aside{
     background-color: #5e7fc1;
     color: #f9fbf2;
@@ -134,6 +141,16 @@ footer{
     margin-bottom: 2vh;
 }
 
+aside img{
+    max-width: 13vw;
+    height: auto;
+}
+
+h3{
+    font-size: 2em;
+    color:#e9e7e4
+    text-decoration: none;
+}
 
 @media screen and (max-width: 480px) {
     

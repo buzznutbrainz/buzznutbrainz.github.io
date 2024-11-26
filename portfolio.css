@@ -53,11 +53,22 @@ h1{
 }
 
 #anchors{
+    padding: 1rem 0;
     display: flex;
+    flex-direction: row;
+    gap: 4rem;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
+    min-width: 200px;
 }
+
+.icon{
+    max-width: 2rem;
+    height: auto;
+    display: flex;
+}
+
 
 .dropdown-btn{
     color: #1d3461;
@@ -66,15 +77,8 @@ h1{
     cursor: pointer;
 }
 
-.dropdown-content{
-    min-width: 200px;
-    display: flex;
-    flex-direction: row;
-    gap: 4rem;
 
-}
-
-.dropdown-content a{
+#anchors a{
     color: #1d3461;
     text-decoration: underline;
     display: block;
@@ -84,6 +88,8 @@ h1{
 
 #paintings{
     margin-bottom: 35vh;
+    display:inline;
+    gap:10rem;
 }
 
 #paintings
@@ -91,28 +97,28 @@ h1{
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 10rem;
-    padding: 1.4rem;
+    gap: 8rem;
+    padding: 2rem;
     margin: 0;
     overflow-x: hidden;
 }
 
 .portfolio img{
-    display: block;
-    max-width: 200%;
+    max-width: 17rem;
     height: auto;
+    gap: 5rem;
 }
 
 .card-content{
     text-align: center;
 }
 
-#comm-work{
+#prof-work{
     width: 100%;
     margin-bottom: 35vh;
 }
 
-#comm-work img{
+#prof-work img{
     width: 350px;
     height: auto;
     display: flex;
