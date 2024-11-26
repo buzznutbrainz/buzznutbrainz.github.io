@@ -129,6 +129,10 @@ aside{
     margin-bottom: 2vh;
 }
 
+aside a{
+    color: #e9e7e4;
+}
+
 footer{
     text-align: center;
     background-color: #f9fbf2;

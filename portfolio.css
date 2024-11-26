@@ -71,7 +71,7 @@ h1{
 
 
 .dropdown-btn{
-    color: #1d3461;
+    color: 5e7fc1
     font-size: 5em;
     border: none;
     cursor: pointer;
@@ -79,7 +79,7 @@ h1{
 
 
 #anchors a{
-    color: #1d3461;
+    color: #5e7fc1;
     text-decoration: underline;
     display: block;
     font-size: 2em;
@@ -92,7 +92,6 @@ h1{
     gap:10rem;
 }
 
-#paintings
 
 .portfolio {
     display: grid;
@@ -131,8 +130,11 @@ h1{
 h2{
     font-size: 3em;
     text-align: left;
-    color: #5e7fc1;
-    text-decoration-line: underline;
+    color: #e9e7e4;
+    background: #3f6c51;
+    width: 50%;
+    text-align: center;
+    border-radius: 50px;
 }
 
 #designs{
