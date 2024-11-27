@@ -30,7 +30,7 @@ body{
 
 h1{ 
     /*color: #5e7fc1; */
-    font-size: 6em; 
+    font-size: 4.5em; 
 }
 
 .header-overlay{
@@ -53,13 +53,11 @@ h1{
 }
 
 #anchors{
-    padding: 1rem 0;
     display: flex;
     flex-direction: row;
-    gap: 4rem;
+    gap: 3.6rem;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
     min-width: 200px;
 }
 
@@ -69,47 +67,65 @@ h1{
     display: flex;
 }
 
-
+/*
 .dropdown-btn{
     color: 5e7fc1
     font-size: 5em;
     border: none;
     cursor: pointer;
 }
+    */
 
 
 #anchors a{
     color: #5e7fc1;
     text-decoration: underline;
     display: block;
-    font-size: 2em;
-    margin-bottom: 3vh;
+    font-size: 1.7em;
 }
 
-#paintings{
-    margin-bottom: 35vh;
-    display:inline;
-    gap:10rem;
+h2{
+    font-size: 3em;
+    text-align: center;
+    color: #e9e7e4;
+    background: #3f6c51;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 7vh;
 }
+
+
 
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 8rem;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 4rem;
     padding: 2rem;
     margin: 0;
-    overflow-x: hidden;
 }
 
 .portfolio img{
     max-width: 17rem;
     height: auto;
-    gap: 5rem;
+    gap: 5rem;x
 }
 
-.card-content{
-    text-align: center;
+.card{
+    }
+
+
+#paintings{
+    width: 100%;
+    height: auto;
+    margin-bottom: 35vh;
+    display:inline;
+    gap:10rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 #prof-work{
@@ -127,21 +143,13 @@ h1{
     padding-left: 2vw;
 }
 
-h2{
-    font-size: 3em;
-    text-align: left;
-    color: #e9e7e4;
-    background: #3f6c51;
-    width: 50%;
-    text-align: center;
-    border-radius: 50px;
-}
 
-#designs{
+
+#digital{
     margin-bottom: 35vh;
 }
 
-#designs img{
+#digital img{
     width: 500px;
     height: auto;
     padding-left: 2vw;

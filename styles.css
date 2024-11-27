@@ -152,8 +152,7 @@ aside img{
 
 h3{
     font-size: 2em;
-    color:#e9e7e4
-    text-decoration: none;
+    color:#e9e7e4;
 }
 
 @media screen and (max-width: 480px) {
