@@ -4,8 +4,6 @@
 
 body{
     background-color: #e9e7e4;
-   /* background-image: url(background.webp);
-    background-size: contain;*/
     
 }
 
@@ -67,14 +65,6 @@ h1{
     display: flex;
 }
 
-/*
-.dropdown-btn{
-    color: 5e7fc1
-    font-size: 5em;
-    border: none;
-    cursor: pointer;
-}
-    */
 
 
 #anchors a{
@@ -92,41 +82,32 @@ h2{
     width: 100%;
     margin: 0;
     padding: 0;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     margin-bottom: 7vh;
 }
 
 
 
-
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
-    gap: 4rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
     padding: 2rem;
     margin: 0;
 }
 
 .portfolio img{
-    max-width: 17rem;
+    max-width: 300px;
     height: auto;
-    gap: 5rem;x
+    gap: 5rem;
 }
 
-.card{
-    }
 
-
-#paintings{
-    width: 100%;
-    height: auto;
-    margin-bottom: 35vh;
-    display:inline;
-    gap:10rem;
-    display: block;
-    justify-content: center;
-    align-items: center;
+.card-content{
+    padding-bottom: 3rem;
 }
+
 
 #prof-work{
     width: 100%;
