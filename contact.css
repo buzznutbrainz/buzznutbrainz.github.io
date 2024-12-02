@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+
+p{
+    margin-bottom: 3vh;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 1rem;
+    border-radius: 20px;
+}
+
+#submit-btn{
+    width: 5vw;
+    height: 5vh;
+    margin: 2rem;
+    border-radius: 10px;
+}

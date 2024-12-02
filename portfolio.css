@@ -26,11 +26,6 @@ body{
 }
 
 
-h1{ 
-    /*color: #5e7fc1; */
-    font-size: 4.5em; 
-}
-
 .header-overlay{
     position: absolute;
     top: 0;
@@ -48,6 +43,7 @@ h1{
     text-align: center;
     font-style: normal;
     z-index: 3;
+    font-size: 5.5em;
 }
 
 #anchors{
@@ -78,7 +74,7 @@ h2{
     font-size: 3em;
     text-align: center;
     color: #e9e7e4;
-    background: #3f6c51;
+    background: #EB6534;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -92,7 +88,7 @@ h2{
 .portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 3rem;
+    justify-content: center;
     padding: 2rem;
     margin: 0;
 }
@@ -108,34 +104,25 @@ h2{
     padding-bottom: 3rem;
 }
 
+.card-title{
+    color:#EB6534;
+}
+
+#paintings{
+    width: 100%;
+
+}
 
 #prof-work{
     width: 100%;
     margin-bottom: 35vh;
 }
 
-#prof-work img{
-    width: 350px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 2vw;
-}
-
-
 
 #digital{
     margin-bottom: 35vh;
 }
 
-#digital img{
-    width: 500px;
-    height: auto;
-    padding-left: 2vw;
-
-}
 
 footer{
     text-align: center;
