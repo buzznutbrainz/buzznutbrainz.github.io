@@ -30,19 +30,19 @@
         </div>
 
 <main>
-    <form id="contact-form">
+    <form id="contact-form"action="send-email.php" method="POST"></form>>
         <p>Please fill out form to submit a request for a custom, or business inquiries.</p>
         <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="">
+        <input type="text" id="fname" name="fname" required>
 
         <label for="lname">Last Name:</label>
-        <input type="text" id="lname">
+        <input type="text" id="lname" name="lname" required>
 
         <label for="email">Email:</label>
-        <input type="text" id="email-slot">
+        <input type="text" id="email-slot" name="email" required>
 
         <label for="inquiry">Message:</label>
-        <input type="text" id="inquiry-message">
+        <textarea id="inquiry-message" name="message" rows="6" required></textarea>
 
         <input type="submit" id="submit-btn" value="submit">
     </form>
