@@ -4,15 +4,35 @@ p{
 }
 
 
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f6c51;
+    color: #f9fbf2;
+    width: 50vw;
+    font-family: "new-atten", sans-serif;
+    font-weight: 350;
+    font-size: 1em;
+    font-style: normal;
+    padding: 5vh;
+    margin: 0 auto;
+    margin-top: 0vh;
+    border-radius: 50px;
+}
+
+
 #contact-form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: left;
-    gap: 1rem;
     border-radius: 20px;
 }
+
+
 
 #submit-btn{
     width: 5vw;
