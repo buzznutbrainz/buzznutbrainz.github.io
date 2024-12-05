@@ -85,6 +85,7 @@ h2{
     padding-top: 2vh;
     padding-bottom: 2vh;
     margin-bottom: 7vh;
+    margin-top: 7vh;
 }
 
 
@@ -105,11 +106,12 @@ h2{
 
 
 .card-content{
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
 }
 
 .card-title{
     color:#EB6534;
+    padding-bottom: 3rem;
 }
 
 #paintings{
