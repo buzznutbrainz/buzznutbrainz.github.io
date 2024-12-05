@@ -1,5 +1,4 @@
-//nav//
-// JavaScript for dropdown menu
+//portfolio main nav//
 const navToggle = document.getElementById('nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 
@@ -11,7 +10,7 @@ navToggle.addEventListener('click', () => {
 
 
 
-//carousel//
+//portfolio carousel//
 const portfolioImages = document.querySelectorAll(".portfolio img");
 const carouselLightbox = document.getElementById("carousel-lightbox");
 const carouselImage = document.getElementById("carousel-image");
@@ -25,23 +24,23 @@ portfolioImages.forEach((img, index) => {
     img.addEventListener("click", () => {
         currentIndex = index;
         carouselImage.src = img.src;
-        carouselImage.alt = img.alt; // Ensures accessibility
-        carouselLightbox.style.display = "flex"; // Display the lightbox
+        carouselImage.alt = img.alt; 
+        carouselLightbox.style.display = "flex"; 
     });
 });
 
-// Close carousel
+// close carousel
 closeCarousel.addEventListener("click", () => {
     carouselLightbox.style.display = "none";
 });
 
-// Show next image
+//  next image
 nextButton.addEventListener("click", () => {
     currentIndex = (currentIndex + 1) % portfolioImages.length;
     carouselImage.src = portfolioImages[currentIndex].src;
 });
 
-// Show previous image
+//  previous image
 prevButton.addEventListener("click", () => {
     currentIndex = (currentIndex - 1 + portfolioImages.length) % portfolioImages.length;
     carouselImage.src = portfolioImages[currentIndex].src;
