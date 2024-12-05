@@ -9,28 +9,31 @@
         <link rel="stylesheet" href="contact.css">
         <link rel="stylesheet" href="template.css">
         <link rel="stylesheet" href="https://use.typekit.net/uzn8trl.css">
-		<link rel="stylesheet" href="https://use.typekit.net/uzn8trl.css">
-		<link rel="b-blue" href="buzzfull.png">
 		<link rel="icon" type="image/x-icon" href="b-blue.png">
 		
 	</head>
 
 <body>
 
-    <header>
-        <div class="banner">
+    <header class="banner">
             <img src="landing-banner.webp">
-            <header class="header-overlay">
+            <div class="header-overlay">
                 <img src="landing-banner.webp" alt="" class="banner">
                 <h1 class="site-name">Contact Me</h1>
-                <section id="anchors">
-                    <a href="index.html" class="nav-item">Home</a>
-                </section>
+                
+                <nav class="main-nav">
+                    <button id="nav-toggle" class="nav-toggle">☰</button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        </div>
+        
 
 <main>
-    <form id="contact-form"action="send-email.php" method="POST"></form>>
+    <form id="contact-form"action="send-email.php" method="POST"></form>
         <p>Please fill out form to submit a request for a custom, or business inquiries.</p>
         <label for="fname">First Name:</label>
         <input type="text" id="fname" name="fname" required>
@@ -39,7 +42,7 @@
         <input type="text" id="lname" name="lname" required>
 
         <label for="email">Email:</label>
-        <input type="text" id="email-slot" name="email" required>
+        <input type="email" id="email" name="email" required>        
 
         <label for="inquiry">Message:</label>
         <textarea id="inquiry-message" name="message" rows="6" required></textarea>

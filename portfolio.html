@@ -8,19 +8,24 @@
     <link rel="stylesheet" href="template.css">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="https://use.typekit.net/uzn8trl.css">
-	<link rel="stylesheet" href="https://use.typekit.net/uzn8trl.css">
     <link rel="icon" type="image/x-icon" href="b-blue.png">
 </head>
 
 
     
 
-    <div class="banner">
+    <header class="banner">
             <img src="landing-banner.webp" alt="">
-        <header class="header-overlay">
+        <div class="header-overlay">
         <h1 class="site-name">Portfolio</h1>
-        <section id="anchors">
-                    <a href="index.html" class="nav-item">Home</a>
+        <nav class="main-nav">
+            <button id="nav-toggle" class="nav-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <section id="anchors" class="anchor-links">
                     <a href="#paintings" class="nav-item"></class>Paintings</a>
                     <a href="#prof-work" class="nav-item">Professional Work</a>
                     <a href="#digital" class="nav-item">Digital</a>
@@ -123,6 +128,13 @@
     </div>
     </div>
 
+    <div id="carousel-lightbox" style="display: none;">
+        <span id="close-carousel">&times;</span>
+        <button id="prev" class="carousel-button">❮</button>
+        <img id="carousel-image" src="" alt="">
+        <button id="next" class="carousel-button">❯</button>
+    </div>
+
 </div>
 </section>
 
@@ -177,5 +189,6 @@
 	<small>Copyright &copy; Ava Heravi 2024</small>
 </footer>
 
+<script src="buzznut.js"></script>
 </body>
 </html>
