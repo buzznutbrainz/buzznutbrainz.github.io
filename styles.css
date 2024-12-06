@@ -80,6 +80,8 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: #3f6c51;
     color: #f9fbf2;
     width: 60vw;
