@@ -35,8 +35,10 @@ main{
 
 
 #submit-btn{
-    width: 5vw;
-    height: 5vh;
     margin: 2rem;
-    border-radius: 10px;
+    border-radius: 50px;
+    padding: 0.8rem;
+    font-size: 1em;
+    background-color: #e9e7e4;
+    border-style: none;
 }
