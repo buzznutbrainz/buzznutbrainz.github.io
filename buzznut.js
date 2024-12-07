@@ -48,10 +48,10 @@ prevButton.addEventListener("click", () => {
 
 
 //back to top button"
-// Get the button element
+
 const backToTopButton = document.getElementById('back-to-top');
 
-// Show or hide the button based on scroll position
+// show/hide the button based on scroll position
 window.addEventListener('scroll', () => {
     if (window.scrollY > 300) {
         backToTopButton.style.display = 'block';

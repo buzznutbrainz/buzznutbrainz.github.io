@@ -213,7 +213,7 @@ main {
     margin-top: 4vh;
 
 }
-}
+
 
 aside{
     display: flex;
@@ -226,7 +226,7 @@ aside{
 aside a{
 font-size: 1.5em;
 }
-
+}
 /*
 @media screen and (max-width: 768px){
 
