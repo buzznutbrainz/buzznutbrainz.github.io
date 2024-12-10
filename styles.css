@@ -160,7 +160,7 @@ h3{
     color:#e9e7e4;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:480px) {
     
 .banner{
     height: 30vh;

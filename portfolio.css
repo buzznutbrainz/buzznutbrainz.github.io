@@ -12,7 +12,6 @@ body{
     width: 100%;
     height: 420px;
     overflow: hidden;
-
 }
 
 .banner img {
@@ -279,5 +278,47 @@ footer{
     margin-bottom: 2vh;
 }
 
+@media screen and (max-width: 480px){
+
+    body{
+        width: 100%;
+        height: auto;
+    }
+    
+    .banner img{
+        display: none;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        background-image: url(ball_full.png);
+
+    }
+
+    .header-overlay{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .site-name{
+        font-size: 2.5em;
+    }
+
+    .anchor-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .anchor-links a{
+        font-size: 1.3em;
+    }
+
+
+}
     
 

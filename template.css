@@ -41,8 +41,37 @@ h3{
     color: #1d3461;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
 
-}
+    .banner{
+        height: 30vh;
+        width: 100%;
+        background-image: url(ball_new.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .banner img{
+    
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        z-index: 1;
+    }
+    
+    .header-overlay{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main{
+        width: 75vw;
+    }
+    
+    }
 
 
