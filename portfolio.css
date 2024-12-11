@@ -172,17 +172,15 @@ h2{
     margin-bottom: 10vh;
 }
 
-#back-to-top {
-    display: flex;
-    flex-direction: column;
+#back-to-top{
+    text-align: center;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: #5e7fc1;
     color: #e9e7e4;
     border-radius: 20px;
-    padding: 1rem;
-    font-size: 2rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -202,6 +200,7 @@ footer{
     font-family: "new-atten", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size:larger;
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
@@ -219,17 +218,18 @@ body{
 .banner{
     height: 55vh;
     width: 100%;
-    background-image: url(ball_full.png);
+    background-image: url(images/ball_full.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     }
 
 .banner img {
-    content: url(ball_full.png);
+    content: url(images/ball_full.png);
     width: 100%;
     height: auto;
     object-fit:cover;
+    background-repeat: no-repeat;
 }
 
     .header-overlay{
@@ -282,7 +282,6 @@ body{
     
     .card-title{
         color:#EB6534;
-        padding-bottom: 3rem;
         margin-left: 2vw;
         margin-right: 5vw;
     }
@@ -317,7 +316,7 @@ body{
         background-color: #5e7fc1;
         color: #e9e7e4;
         border-radius: 20px;
-        padding: 2px;
+        padding: 10px;
         font-size: 1rem;
         cursor: pointer;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -325,4 +324,59 @@ body{
     }
 }
     
+@media screen and (max-width: 768px){
+
+    .portfolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    
+    .portfolio img{
+        max-width: 310px;
+        height: auto;
+        gap: 5rem;
+        cursor: pointer;
+    }
+
+    .banner{
+        height: 70vh;
+        width: 100%;
+        background-image: url(images/ball_full.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+    
+    .banner img {
+        content: url(images/ball_full.png);
+        width: 100%;
+        height: auto;
+        object-fit:cover;
+        background-repeat: no-repeat;
+    }
+    
+        .header-overlay{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+        }
+    
+        
+        .anchor-links{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 1rem;
+        }
+    
+        .anchor-links a{
+            font-size: 1.3em;
+        }
+}
 
