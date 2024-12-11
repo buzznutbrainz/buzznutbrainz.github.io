@@ -3,13 +3,6 @@ p{
     margin-bottom: 3vh;
 }
 
-.banner{
-
-}
-
-.banner img{
-}
-
 main{
     display: flex;
     flex-direction: column;
@@ -58,41 +51,6 @@ footer{
 }
 
 @media screen and (max-width: 480px){
-
-    .banner{
-        height: 30vh;
-        width: 100%;
-        background-image: url(ball_new.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        }
-    
-    .banner img {
-        width: 100%;
-        height: auto;
-        object-fit:cover;
-    }
-
-    .header-overlay{
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .site-name{
-        font-size: 2em;
-    }
-
-    #anchors{
-        display: flex;
-        flex-direction: column;
-        gap: 1vh;
-    }
-
-    #anchors a{
-
-        font-size: 1.4em;
-    }
 
     main{
         width: 100%;

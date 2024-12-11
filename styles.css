@@ -161,49 +161,55 @@ h3{
 }
 
 @media screen and (max-width:480px) {
+    body{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+        
+          
+    .banner{
+        height: 55vh;
+        width: 100%;
+        background-image: url(ball_full.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        }
     
-.banner{
-    height: 30vh;
-    width: 100%;
-    background-image: url(ball_new.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    }
-
-.banner img {
-    content: url(ball_new.png);
-    width: 100%;
-    height: auto;
-    object-fit:cover;
-}
-.header-overlay{
-    width: 100%;
-    }
-
-.site-name{
-    font-size: 1.6em;
-    text-align: center;
-    padding-top: 20px;
+    .banner img {
+        content: url(ball_full.png);
+        width: 100%;
+        height: auto;
+        object-fit:cover;
     }
     
-
-#anchors {
-    flex-direction: column;
-    padding-bottom: 2vh;
-    }
-
-#anchors a{
-    font-size: 1em;
-    font-family: "alfarn", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    text-align: center;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    text-decoration: underline;
-    gap: 0;
-}
+        .header-overlay{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+        }
+    
+        .site-name{
+            font-size: 2.5em;
+            margin-top: 10vh;
+        }
+        
+        .anchor-links{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 1rem;
+            margin-top: 3vh;
+        }
+    
+        .anchor-links a{
+            font-size: 1.5em;
+        }
 
 main {    
     width: 80vw;
