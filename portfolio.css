@@ -205,7 +205,7 @@ footer{
     margin-bottom: 2vh;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 480px){
 
 body{
     width: 100%;
@@ -213,7 +213,7 @@ body{
 }
     
 .banner{
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     }
 
@@ -233,7 +233,8 @@ body{
     }
 
     .site-name{
-        font-size: 2.5em;
+        font-size: 3em;
+        margin-top: 10vh;
     }
     
     .anchor-links{
@@ -243,6 +244,7 @@ body{
         align-items: center;
         text-align: center;
         gap: 1rem;
+        margin-top: 3vh;
     }
 
     .anchor-links a{
