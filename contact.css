@@ -52,6 +52,10 @@ footer{
 
 @media screen and (max-width: 480px){
 
+    .site-name{
+        margin-right: 3vw;
+        margin-left: 3vw;
+    }
     main{
         width: 100%;
         padding: 5vh;
