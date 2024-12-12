@@ -217,7 +217,7 @@ footer{
         }
 
 main {    
-    width: 80vw;
+    width: 95vw;
     font-family: "new-atten", sans-serif;
     font-weight: 400;
     font-size: 0.8em;
@@ -236,7 +236,7 @@ aside{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 80vw;
+    width: 95vw;
     height: auto;
     border-radius: 45px;
 }
