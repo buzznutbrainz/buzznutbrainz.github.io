@@ -169,26 +169,37 @@ footer{
     margin-bottom: 2vh;
 }
 
-@media screen and (min-width: 1700px){
+@media screen and (min-width: 2500px){
 
     .banner{
         height: 40vh;
     }
 
     .site-name{
-        font-size: 7em;
+        font-size: 10em;
         margin-top: 5rem;
     }
 
     .anchor-links a{
-        font-size: 3em;
+        font-size: 5em;
     }
 
     main{
-        font-size: 2.3em;
+        font-size: 3.6em;
+        border-radius: 90px;
+    }
+
+    main img{
+        width: 100%;
+        height: auto;
+        border-radius: 90px;
+    }
+
+    aside{
+        border-radius: 90px;
     }
     footer{
-        font-size: 2em;
+        font-size: 3.5em;
     }
 }
 

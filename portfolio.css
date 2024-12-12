@@ -156,7 +156,8 @@ h2{
 #paintings img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 330px
+    width:100%;
+    height:auto;
 }
 
 #prof-work{
@@ -206,36 +207,56 @@ footer{
 }
 
 
-@media screen and (min-width: 1700px){
+@media screen and (min-width: 2500px){
 
-    .banner{
-        width: 100%;
-        height: 50vh;
-    }
-
-    .banner img{
-        object-fit: cover;
-
-    }
-    .site-name{
-        font-size: 7em;
-        margin-top: 5rem;
+.banner{
+    width: 100%;
+    height: 50vh;
     }
 
-    .nav-toggle{
-        font-size: 2.2em;
+.banner img{
+    object-fit: cover;
+
+    }
+.site-name{
+    font-size: 7em;
+    margin-top: 5rem;
     }
 
-    .anchor-links a{
-        font-size: 3em;
-    }
-    .portfolio img{
-        gap: 10rem;
+.nav-toggle{
+    font-size: 4.2em;
     }
 
-    footer{
-        font-size: 2em;
+.nav-menu a{
+    font-size: 5em;
+    margin-bottom: 2rem;
     }
+
+.anchor-links{
+    gap: 5rem;
+}
+
+.anchor-links a{
+    font-size: 5em;
+    }
+
+
+.portfolio {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+justify-content: center;
+padding: 2rem;
+margin: 0;
+}
+
+main img{
+width: 500px;
+}
+
+footer{
+font-size: 2em;
+   }
+
 }
 
 @media screen and (max-width: 768px){
