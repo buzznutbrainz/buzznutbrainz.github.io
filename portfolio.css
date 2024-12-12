@@ -124,8 +124,6 @@ h2{
     margin-top: 7vh;
 }
 
-
-
 .portfolio {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -138,7 +136,6 @@ h2{
     max-width: 300px;
     height: auto;
     gap: 5rem;
-    cursor: pointer;
 }
 
 
@@ -206,6 +203,65 @@ footer{
     font-size:larger;
     margin-top: 2vh;
     margin-bottom: 2vh;
+}
+
+@media screen and (max-width: 768px){
+
+    .banner{
+        height: 75vh;
+        width: 100%;
+        }
+    
+    .banner img {
+        content: url(images/ballright3.png);
+        width: 100%;
+        height: auto;
+        object-fit:cover;
+        background-repeat: no-repeat;
+    }
+
+        .header-overlay{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+        }
+    
+        .site-name{
+            font-size: 5em;
+            margin-top: 10vh;
+        }
+        
+        .anchor-links{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 1rem;
+            margin-top: 3vh;
+        }
+    
+        .anchor-links a{
+            font-size: 1.6em;
+        }
+
+
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.portfolio img{
+    max-width: 310px;
+    height: auto;
+    gap: 5rem;
+    cursor: pointer;
+}
 }
 
 @media screen and (max-width: 480px){

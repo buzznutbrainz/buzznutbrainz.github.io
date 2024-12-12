@@ -106,7 +106,7 @@ h2{
 }
 
 main img{
-    width: 50vw;
+    width: 40vw;
     height: auto;
     max-width: 100%;
     justify-content: center;
@@ -169,6 +169,43 @@ footer{
     margin-bottom: 2vh;
 }
 
+@media screen and (max-width:768px){
+
+    .anchor-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .anchor-links a {
+        color: #5e7fc1;
+        font-family: "alfarn", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: underline;
+        font-size: 2rem;
+    }
+            
+    .banner{
+        height: 52vh;
+        width: 100%;
+        }
+    
+    .banner img {
+        content: url(768.png);
+        width: 100%;
+        height: auto;
+        object-fit:cover;
+        background-repeat: no-repeat;
+    }
+
+    main{
+        margin-top: 3rem;
+    }
+}
 
 @media screen and (max-width:480px) {
 
