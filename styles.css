@@ -79,11 +79,11 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     align-items: center;
     background-color: #3f6c51;
-    color: #f9fbf2;
+    color: #e9e7e4;
     width: 60vw;
     font-family: "new-atten", sans-serif;
     font-weight: 350;
@@ -98,9 +98,11 @@ main{
 
 h2{
     padding-bottom: 2rem;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 600;
     font-size: 1.5em;
+    text-align: center;
+    color: #e9e7e4;
 }
 
 main img{

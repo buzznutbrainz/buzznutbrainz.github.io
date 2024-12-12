@@ -9,10 +9,10 @@ navToggle.addEventListener('click', () => {
 
 //back to top button"
 
-const backToTopButton = document.getElementById('back-to-top');
+const backToTopButton = document.querySelector('.back-to-top');
 
 
-// Scroll smoothly
+// scroll smoothly
 backToTopButton.addEventListener('click', () => {
     window.scrollTo({
         top: 0,

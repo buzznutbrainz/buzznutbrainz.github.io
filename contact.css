@@ -11,7 +11,7 @@ main{
     align-items: center;
     background-color: #3f6c51;
     color: #f9fbf2;
-    width: 50vw;
+    width: 40vw;
     font-family: "new-atten", sans-serif;
     font-weight: 350;
     font-size: 1em;
@@ -30,20 +30,21 @@ main{
     border-radius: 20px;
     width: 50%;
     gap: 0.7rem;
+    width: 20vw;
 }
 
 
-
-.form-btn{
-    width: 100%;
-    margin: 2rem;
+main button{
+    width: 30%;
     border-radius: 50px;
-    padding: 0.8rem;
-    font-size: 1em;
+    padding: 0.5rem;
+    font-size: 0.9em;
     background-color: #e9e7e4;
     border-style: none;
     cursor: pointer;
-    margin-top: 2rem;
+    font-family: "new-atten", sans-serif;
+    font-weight: 350;
+    color: #1d3461;
 }
 
 footer{
@@ -57,19 +58,13 @@ footer{
         margin-left: 3vw;
     }
     main{
-        margin-top: 4vh;
         width: 100%;
         padding: 5vh;
         margin-bottom: 5vh;
     }
 
     .form{
-    width: 70%;
-    }
-
-    .submit{
-        margin-top: 3.3vh;
-        width: 40%
+    width: 60vw;
     }
 
 }
