@@ -169,6 +169,29 @@ footer{
     margin-bottom: 2vh;
 }
 
+@media screen and (min-width: 1700px){
+
+    .banner{
+        height: 40vh;
+    }
+
+    .site-name{
+        font-size: 7em;
+        margin-top: 5rem;
+    }
+
+    .anchor-links a{
+        font-size: 3em;
+    }
+
+    main{
+        font-size: 2.3em;
+    }
+    footer{
+        font-size: 2em;
+    }
+}
+
 @media screen and (max-width:768px){
 
     .anchor-links {

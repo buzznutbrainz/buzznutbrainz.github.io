@@ -6,7 +6,6 @@ navToggle.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
 
-
 //back to top button"
 
 const backToTopButton = document.querySelector('.back-to-top');
