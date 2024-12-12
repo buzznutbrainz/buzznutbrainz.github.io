@@ -169,14 +169,12 @@ footer{
 
 
 @media screen and (max-width:480px) {
+
     body{
         width: 100%;
         height: auto;
-        margin: 0;
-        padding: 0;
     }
         
-          
     .banner{
         height: 48vh;
         width: 100%;
@@ -215,7 +213,6 @@ footer{
         .anchor-links a{
             font-size: 1.3em;
         }
-
 main {    
     width: 95vw;
     font-family: "new-atten", sans-serif;
